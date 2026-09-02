@@ -17,7 +17,7 @@ O *Fork* cria uma cópia exata do repositório oficial na sua própria conta do 
 ---
 
 ## Passo 2: Salvando o Arquivo via Google Colab no SEU Fork
-Agora que você tem o seu próprio repositório, os exercícios feitos no Google Colab serão salvos lá, respeitando estritamente as regras de governança da disciplina.
+Agora que você tem o seu próprio repositório, os exercícios feitos no Google Colab serão salvos lá, respeitando as regras de governança da disciplina.
 
 1. No menu superior do Google Colab, clique em **Arquivo** > **Salvar uma cópia no GitHub**.
 2. Autorize o Colab a acessar seu GitHub, caso seja o seu primeiro acesso.
