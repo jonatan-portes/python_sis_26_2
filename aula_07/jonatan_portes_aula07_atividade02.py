@@ -52,3 +52,17 @@ logs = [
 ]
 
 print("Average meows per awake hour:", average_meows(logs))
+
+# Parte 01 - Soneca de gato com bugs
+"""Bug lógico: counter começa em 1, então o primeiro valor (2h) nunca é somado. Corrigi começando em 0."""
+
+def nap_time(hours_list):
+    total = 0
+    counter = 0
+    while counter < len(hours_list):
+        total += hours_list[counter]
+        counter += 1
+    return total
+
+cat_naps = [2, 3, 1.5, 4]
+print("Total nap time:", nap_time(cat_naps))
